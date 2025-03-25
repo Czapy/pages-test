@@ -7,7 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: "https://czapy.github.io",
   base: "/pages-test",
-  trailingSlash: "always",
+  trailingSlash: "never",
   vite: {
     plugins: [tailwindcss()],
   },
